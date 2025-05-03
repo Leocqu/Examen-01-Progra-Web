@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: 'Segoe UI', SegoeUI, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+}
+
+.logo{
+    width: 210px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+}
+
+header input {
+    margin-left: 200px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 25px;
+}
+
+header ul li {
+    margin: 10px;
+}
+
+aside {
+    background: none;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    right: 100px;
+}
+
+aside ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+aside ul img {
+    background: none;
+    width: 20px;
+    padding: 5px;
+}
+
+aside ul img:hover {
+    width: 25px;
+    padding: 5px;
+    transition: .2s ease-in-out;
+}
+
+h1 {
+    padding-left: 50px;
+}
+
+.contenedorImagen {
+    background-image: url('img/banner.jpg');
+    background-size: contain;
+    height: 100%; 
+}
+
+.contenedorTitulo {
+    color: white;
+    width: 400px;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+
+.contenedorTitulo button {
+    font-family:  'Segoe UI', SegoeUI, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+    background-color: #004e00;
+    color: #9BF00B;
+    padding: 20px;
+    margin-top: 20px;
+}
